@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chat UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="chat-container">
+        
+        <header class="chat-header">
+            <div class="user-avatar">
+                <img src="https://interiordesign.net/wp-content/uploads/2024/04/InteriorDesign_March2024_Brave-New-World-11-1024x768.jpg" alt="User Avatar">
+            </div>
+            <div class="user-info">
+                <h3>Reservation Office</h3>
+                <span class="status">Online</span>
+            </div>
+            <div class="header-icons">
+                <span>&#8942;</span> 
+            </div>
+        </header>
+
+        <div class="chat-messages" id="messageArea">
+            
+            <div class="message received">
+                <div class="message-content">
+                    Hi there! How can I help you today?
+                </div>
+                <span class="timestamp">10:30 AM</span>
+            </div>
+
+            <div class="message sent">
+                <div class="message-content">
+                    Hey, I'm looking for Reservation tonight.
+                </div>
+                <span class="timestamp">10:31 AM</span>
+            </div>
+
+            <div class="message received">
+                <div class="message-content">
+                    Sure,Mention your arrival Time
+                </div>
+                <span class="timestamp">10:32 AM</span>
+            </div>
+
+            <div class="message sent">
+                <div class="message-content">
+                    8:30PM Tonight.
+                </div>
+                <span class="timestamp">10:32 AM</span>
+            </div>
+
+        </div>
+
+        <footer class="chat-input">
+            <input type="text" placeholder="Type a message..." aria-label="Type a message">
+            <button class="send-btn" aria-label="Send">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+            </button>
+        </footer>
+
+    </div>
+
+</body>
+</html>
